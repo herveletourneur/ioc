@@ -1,4 +1,4 @@
-package com.herve.test.runtime;
+package com.herve.example;
 
 import com.herve.application.configuration.BeanConfiguration;
 import com.herve.application.configuration.Configuration;

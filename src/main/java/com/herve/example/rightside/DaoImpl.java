@@ -1,4 +1,6 @@
-package com.herve.test.runtime;
+package com.herve.example.rightside;
+
+import com.herve.example.DataSource;
 
 @Dao
 public class DaoImpl implements HelloWorlDao {

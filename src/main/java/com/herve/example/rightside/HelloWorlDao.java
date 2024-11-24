@@ -1,4 +1,4 @@
-package com.herve.test.runtime;
+package com.herve.example.rightside;
 
 public interface HelloWorlDao {
 

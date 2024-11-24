@@ -1,6 +1,7 @@
-package com.herve.test.runtime;
+package com.herve.example.leftside;
 
 import com.herve.application.web.JavalinController;
+import com.herve.example.domain.HelloWorldService;
 import io.javalin.http.Context;
 
 import static io.javalin.apibuilder.ApiBuilder.*;

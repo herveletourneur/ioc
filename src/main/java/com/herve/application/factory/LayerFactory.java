@@ -31,7 +31,7 @@ public class LayerFactory {
 
     private void createAndRegisterBean(Class<?> dependency) {
         Constructor<?>[] constructors = dependency.getConstructors();
-        if (constructors.length > 1) {
+        if (constructors.length != 1) {
             throw new IncorrectConfigrationBeanDefinition("A dependency must have only one constructor : " + dependency.getName());
         }
         Constructor<?> injectionPoint = constructors[0];

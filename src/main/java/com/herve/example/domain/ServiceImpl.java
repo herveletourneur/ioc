@@ -1,4 +1,6 @@
-package com.herve.test.runtime;
+package com.herve.example.domain;
+
+import com.herve.example.rightside.HelloWorlDao;
 
 @Service
 public class ServiceImpl implements HelloWorldService {

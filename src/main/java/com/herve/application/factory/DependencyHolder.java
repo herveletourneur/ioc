@@ -30,7 +30,7 @@ public class DependencyHolder implements DependencyLocator, DependencyRegistrato
             if (dependenciesFound.isEmpty()) {
                 return Optional.empty();
             } else if (dependenciesFound.size() == 1) {
-                return Optional.of((T) beansByBeanKey.get(dependenciesFound.get(0)));
+                return Optional.of((T) beansByBeanKey.get(dependenciesFound.getFirst()));
             }
             String dependencies = dependenciesFound.stream()
                                                    .map(DependencyKey::toString)

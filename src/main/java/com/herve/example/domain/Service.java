@@ -1,4 +1,4 @@
-package com.herve.test.runtime;
+package com.herve.example.domain;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
